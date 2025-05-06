@@ -1,0 +1,91 @@
+/* Basic reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0403038c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.game-container {
+  background: #2b4260;
+  padding: 20px 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #ddd;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Game info */
+.game-info {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.result-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.lowOrHi {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
